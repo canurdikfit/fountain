@@ -1,4 +1,7 @@
 import Card from "./ui/Card";
+import Star from "../assets/star.svg";
+import Triangle from "../assets/Triangles.svg";
+import Union from "../assets/Union.svg";
 
 function Transactions() {
   return (
@@ -44,19 +47,19 @@ export default Transactions;
 
 const cardTemplate = [
   {
-    icon: "/union.svg",
+    icon: Union,
     title: "Learn About Blockchain",
     description:
       "Working with great Tutors and content creators to provide newbies with basic ideas or web3 & Blockchain",
   },
   {
-    icon: "/Triangles.svg",
+    icon: Triangle,
     title: "Refer new friends",
     description:
       "Refer new friends especially newbies to foundation, where they can learn and understand the basics of blockchain",
   },
   {
-    icon: "/star.svg",
+    icon: Star,
     title: "Earn and Explore",
     description:
       "Earn liquidity from different airdrops and explore the crypto market",
