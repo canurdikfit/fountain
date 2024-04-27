@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 0, 0, 0;
+  --background-end-rgb: 0, 0, 0;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -14,6 +14,10 @@
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
   }
+}
+
+* {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -30,4 +34,35 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.banner {
+  background: rgb(5, 5, 5);
+  background: linear-gradient(
+    0deg,
+    rgba(5, 5, 5, 1) 0%,
+    rgba(5, 5, 5, 0.64) 48%,
+    rgba(5, 5, 5, 1) 100%
+  );
+}
+
+section {
+  @apply lg:px-24 md:px-16 px-5;
+}
+
+.navbar_sm {
+  @apply lg:hidden w-3/4 sm:w-1/2 backdrop-blur h-screen bg-black/80 absolute inset-y-0 left-0 -z-10 translate-x-0 transition-transform duration-500 ease-in-out;
+}
+
+.navbar_lg {
+  @apply lg:hidden w-3/4 sm:w-1/2 backdrop-blur h-screen absolute inset-y-0 left-0 z-40 -translate-x-full transition-transform duration-500 ease-in-out;
+}
+
+.back {
+  background: rgb(40, 40, 42);
+  background: radial-gradient(
+    circle,
+    rgba(40, 40, 42, 1) 50%,
+    rgba(11, 13, 12, 1) 100%
+  );
 }
