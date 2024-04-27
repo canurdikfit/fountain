@@ -51,11 +51,11 @@ section {
 }
 
 .navbar_sm {
-  @apply lg:hidden w-full rounded-3xl bg-[#19191A] absolute top-24 left-0 -z-50 translate-y-0 transition-transform duration-300 ease-linear;
+  @apply lg:hidden w-full rounded-3xl bg-[#19191A] relative mx-auto md:max-w-[700px] xl:max-w-[1000px] top-4 left-0 -z-50 translate-y-0 transition-transform duration-300 ease-linear;
 }
 
 .navbar_lg {
-  @apply lg:hidden w-full absolute rounded-3xl bg-[#19191A] -z-50 left-0 -translate-y-[80vh] transition-transform duration-300 ease-linear;
+  @apply lg:hidden w-full relative rounded-3xl bg-[#19191A] mx-auto md:max-w-[700px] xl:max-w-[1000px] -z-50 left-0 -translate-y-[80vh] transition-transform duration-300 ease-linear;
 }
 
 .back {
