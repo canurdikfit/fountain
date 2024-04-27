@@ -10,17 +10,17 @@ function Navbar() {
     setClicked(!clicked);
   };
   return (
-    <nav className="fixed w-screen z-50 lg:top-8 top-0 inset-x-0 lg:bg-none">
+    <nav className="fixed w-screen z-50 lg:top-8 top-0 inset-x-0">
       <div
         className="relative"
-        // data-aos="fade-down"
-        // data-aos-easing="ease-in-back"
-        // data-aos-duration="1200"
-        // data-aos-offset="0"
+        data-aos="fade-down"
+        data-aos-easing="ease-in-back"
+        data-aos-duration="1200"
+        data-aos-offset="0"
       >
-        <div>
-          <div className="bg-black z-40 pt-5 lg:pt-0 px-5">
-            <div className="flex items-center justify-between rounded-full border border-[#31363D] md:max-w-[700px] xl:max-w-[1000px] md:w-full bg-[#19191A] drop-shadow-lg  md:mx-auto py-2 px-10 sm:px-16 lg:px-2">
+        <div className='px-5'>
+          <div className="bg-black lg:bg-none z-40 pt-5 lg:pt-0 lg:px-5">
+            <div className="flex items-center justify-between rounded-full border border-[#31363D] md:max-w-[700px] xl:max-w-[1000px] md:w-full bg-[#19191A] drop-shadow-lg  md:mx-auto py-2 pr-7 pl-2 lg:pr-2">
               <div className="uppercase text-sm sm:w-1/3 text-white">
                 <Link href="/" className="flex gap-3 items-center">
                   <svg
