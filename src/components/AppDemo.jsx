@@ -21,7 +21,7 @@ function AppDemo() {
           our Airdrop Mining
         </h2>
         <div
-          className="max-w-3xl md:h-[500px] h-[300px] relative md:my-5 grid grid-cols-3 gap-5 items-center"
+          className="max-w-2xl md:h-[500px] mx-auto w-full h-[300px] relative md:my-5 grid grid-cols-3 items-center justify-around"
           id="download"
         >
           <div className="h-full relative">
@@ -38,7 +38,7 @@ function AppDemo() {
               data-aos-offset="0"
             />
           </div>
-          <div className="h-full relative">
+          <div className="h-full relative ">
             <Image
               src="/center.png"
               className="object-contain"

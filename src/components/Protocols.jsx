@@ -1,14 +1,16 @@
 import ProtocolCard from "./ui/ProtocolCard";
 
-
 function Protocols() {
   return (
     <section className="lg:pt-36 md:pt-24 pt-20">
-      <h3 className="lg:text-6xl text-3xl md:text-5xl lg:leading-tight md:leading-tight font-medium" data-aos="fade-in"
-          data-aos-easing="ease-in-back"
-          data-aos-delay="100"
-          data-aos-duration="1200"
-          data-aos-offset="0">
+      <h3
+        className="lg:text-6xl text-3xl md:text-5xl lg:leading-tight md:leading-tight font-medium bg-gradient-to-br bg-clip-text from-white via-[#999999] text-transparent"
+        data-aos="fade-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="100"
+        data-aos-duration="1200"
+        data-aos-offset="0"
+      >
         Connect with Web3 <br />
         brands through our <br />
         permissionless protocol

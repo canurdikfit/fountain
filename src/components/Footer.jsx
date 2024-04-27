@@ -9,7 +9,7 @@ function Footer() {
       <section>
         <div className="grid md:grid-cols-2 text-center gap-y-10 md:gap-0 mx-auto items-start justify-center md:justify-between">
           <div>
-            <Link href="/" className="flex gap-6 items-center">
+            <Link href="/" className="flex gap-6 items-center justify-center md:justify-start scale-90 md:scale-100">
               <svg
                 width="80"
                 height="80"
@@ -115,18 +115,18 @@ function Footer() {
           </div>
 
           <div className="text-center">
-            <div className="md:ms-auto grid gap-6 w-fit text-left md:text-center">
+            <div className="mx-auto  md:ms-auto grid gap-6 w-fit text-center">
               <h4 className="text-2xl font-semibold">Community</h4>
               <div className="flex md:items-center gap-5 bg-[#19191A] border border-white/25 justify-evenly py-4 px-3 rounded-full ">
                 <Link
                   href="/"
-                  className="text-4xl text-[#B6B6B6] hover:text-primary ease-in transition-all duration-300"
+                  className="md:text-4xl text-3xl text-[#B6B6B6] hover:text-primary ease-in transition-all duration-300"
                 >
                   <FaTelegramPlane />
                 </Link>
                 <Link
                   href="/"
-                  className="text-4xl text-[#B6B6B6] hover:text-primary ease-in transition-all duration-300"
+                  className="md:text-4xl text-3xl text-[#B6B6B6] hover:text-primary ease-in transition-all duration-300"
                 >
                   <FaTwitter />
                 </Link>
@@ -139,7 +139,7 @@ function Footer() {
               </Link>
             </div>
           </div>
-          <p className="text-sm mt-20 text-left">
+          <p className="text-sm md:mt-20 mt-5 text-left">
             Foundation 2024. All rights reserved{" "}
           </p>
         </div>
